@@ -13,7 +13,7 @@ import Scheduler from 'devextreme-react/scheduler';
 import { data } from './data.js';
 
 const currentDate = new Date(2021, 2, 28);
-const views = ['week', 'month'];
+const views = ['day','week', 'month'];
 
 function App() {
   return(
